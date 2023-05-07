@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 15px 15px;
 `;
 
 export const Button = styled.button`
@@ -12,11 +11,15 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
 
-  font-size: 20px;
-  padding: 10px 20px;
+  font-size: 16px;
+
   border: none;
   border-radius: 20px;
   cursor: pointer;
+
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 5px 10px;
 
   background-color: #f3f6f9;
 
@@ -27,7 +30,7 @@ export const Button = styled.button`
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: #c0c9d8;
   }
 `;
