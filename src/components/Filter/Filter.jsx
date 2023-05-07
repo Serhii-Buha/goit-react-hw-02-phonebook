@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import {} from 'components/Filter/Filter.styled';
 import { Form } from 'react-bootstrap';
 
 export const Filter = ({ value, onChange }) => {

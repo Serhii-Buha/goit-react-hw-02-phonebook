@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import {} from 'components/ContactListItem/ContactListItem.styled';
 
 export const ContactListItem = ({ name, number }) => {
   return (
