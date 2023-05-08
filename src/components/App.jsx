@@ -51,7 +51,7 @@ export class App extends Component {
     );
   };
 
-  //  это функция, которая удаляет контакт из списка контактов, на основе переданного contactId.
+  //  это функция, которая удаляет контакт из списка контактов, на основе переданного contactId..
   deleteContact = contactId => {
     this.setState(prevState => ({
       contacts: prevState.contacts.filter(contact => contact.id !== contactId), // filter(), который создает новый массив контактов, содержащий только те контакты, у которых id не равен переданному contactId. Таким образом, из списка контактов удаляется контакт с указанным id.
